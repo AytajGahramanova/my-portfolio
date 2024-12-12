@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import "../assets/css/common.scss";
 import "../assets/css/style.scss";
-
+import MouseMove from "../components/MouseMove";
 
 const Projects = () => {
   const [transformStyles, setTransformStyles] = useState({});
@@ -34,6 +34,7 @@ const Projects = () => {
 
   return (
     <div className="border-b border-neutral-900 pb-4">
+      <MouseMove />
       <motion.h2
         whileInView={{ opacity: 1, y: 0 }}
         initial={{ opacity: 0, y: -100 }}

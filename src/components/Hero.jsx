@@ -49,7 +49,7 @@ const Hero = () => {
               variants={container(1.5)}
               initial="hidden"
               animate="visible"
-              className="p-2 rounded-[10px] bg-gradient-to-l from-blue-400 via-slate-500 to-sky-800 "
+              className="p-3 rounded-[10px] bg-gradient-to-l from-blue-400 via-slate-500 to-sky-800 "
             >
               <a
                 href={Resume}
