@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 import "../assets/css/common.scss";
 import "../assets/css/style.scss";
 
-
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
   visible: {
@@ -19,7 +18,7 @@ const container = (delay) => ({
 const Hero = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 lg:mb-35">
-      <div className="w-full max-w-[1300px] mx-auto flex justify-center lg:justify-between flex-wrap">
+      <div className="w-full max-w-[1300px] mx-auto flex justify-center flex-col-reverse lg:justify-between lg:flex-row">
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col lg:items-start">
             <motion.h2

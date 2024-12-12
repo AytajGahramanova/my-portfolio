@@ -35,7 +35,7 @@ const Navbar = () => {
       <a href="/">
         <img src={Logo} alt="logo" className="w-full max-w-28 object-contain" />
       </a>
-      <div className="flex items-center justify-between py-6 m-4 lg:mb-8 text-xl gap-4">
+      <div className="flex items-center justify-between py-6 m-4 lg:mb-8 text-xl gap-2 lg:gap-4">
         <a
           href="https://www.linkedin.com/in/aytac-gahramanova-6b61ab245/"
           target="blank"

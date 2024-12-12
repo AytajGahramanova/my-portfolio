@@ -42,7 +42,7 @@ const Projects = () => {
       >
         Projects
       </motion.h2>
-      <div className="w-full max-w-[1000px] mx-auto">
+      <div className="w-full max-w-[1300px] mx-auto">
         <div className="flex gap-5 flex-wrap justify-center">
           {PROJECTS.map((project, index) => (
             <div
@@ -55,7 +55,7 @@ const Projects = () => {
                   "perspective(1000px) rotateX(0deg) rotateY(0deg)",
                 transition: "transform 0.1s ease-out",
               }}
-              className="bg-[rgb(21,16,48)] bg-opacity-100 mb-0 lg:mb-4 p-5 rounded-2xl sm:w-[340px] w-full cursor-pointer"
+              className="projects-card bg-[rgb(21,16,48)] bg-opacity-100 mb-0 lg:mb-4 p-5 rounded-2xl sm:w-[340px] w-full cursor-pointer"
             >
               <div className="flex justify-between">
                 <h3 className="mb-2 text-xl text-neutral-100 poppins-400 ">
