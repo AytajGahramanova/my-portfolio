@@ -5,11 +5,13 @@ import { MdOutlineMailOutline } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { useMediaQuery } from "react-responsive";
 
 const Contact = () => {
   const ref = useRef();
   const isInView = useInView(ref, { margin: "-100px" });
   const formRef = useRef();
+  const isSmallScreen = useMediaQuery({ query: "(max-width: 992px)" });
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -43,7 +45,7 @@ const Contact = () => {
           <div className="flex flex-col gap-3">
             <div className="flex flex-col text-m lg:text-lg">
               <div className="flex gap-2 items-center">
-                <div className="rounded-full bg-blue-950 p-2">
+                <div className="rounded-full bg-[rgb(21,16,48)] p-2">
                   <MdOutlineMailOutline />
                 </div>
                 <p>Mail: </p>
@@ -54,7 +56,7 @@ const Contact = () => {
             </div>
             <div className="flex flex-col text-m lg:text-lg">
               <div className="flex gap-2 items-center">
-                <div className="rounded-full bg-blue-950 p-2">
+                <div className="rounded-full bg-[rgb(21,16,48)] p-2">
                   <FaPhoneAlt />
                 </div>
                 <p>Phone: </p>
@@ -71,7 +73,8 @@ const Contact = () => {
             whileInView={{ opacity: 0 }}
             transition={{ delay: 3, duration: 1 }}
           >
-            <svg className="phone-svg"
+            <svg
+              className="phone-svg"
               fill="#000000"
               width="400px"
               height="400px"
@@ -92,7 +95,7 @@ const Contact = () => {
             className="flex flex-col items-center gap-3"
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
-            transition={{ delay: 4, duration: 1 }}
+            transition={{ delay: isSmallScreen ? 0 : 4, duration: 1 }}
           >
             <input
               className="bg-gradient-to-l from-blue-950 to-sky-800 w-full lg:w-[80%] py-3 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"

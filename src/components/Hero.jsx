@@ -25,7 +25,7 @@ const Hero = () => {
               variants={container(0)}
               initial="hidden"
               animate="visible"
-              className="pb-6 lg:pb-3 text-4xl font-thin tracking-tight lg:mt-16 lg:text-6xl"
+              className="pb-3 lg:pb-6 text-4xl font-thin tracking-tight lg:mt-16 lg:text-6xl"
             >
               Aytac Gahramanova
             </motion.h2>
@@ -41,7 +41,7 @@ const Hero = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light text-neutral-400 poppins-400"
+              className="my-2 max-w-full lg:max-w-xl py-6 font-light text-neutral-400 poppins-400"
             >
               {HERO_CONTENT}
             </motion.p>

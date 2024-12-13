@@ -56,7 +56,7 @@ const Navbar = () => {
         </a>
         <button
           onClick={backToTop}
-          className={`fixed bottom-4 right-4 p-3 rounded-full bg-blue-500 text-white shadow-lg transition-opacity ${
+          className={`fixed bottom-4 right-4 p-3 rounded-full bg-[#075985] text-white shadow-lg transition-opacity ${
             isVisible ? "opacity-100" : "opacity-0 pointer-events-none"
           }`}
           style={{ zIndex: 1000 }}
