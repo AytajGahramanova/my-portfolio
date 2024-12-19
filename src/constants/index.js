@@ -45,16 +45,25 @@ export const PROJECTS = [
     image: flags,
     title: "Country Flags",
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "Is an interactive and interesting platform created to get information about countries' flags and information.It includes population, capital, territory and other interesting information for each country.",
     technologies: ["#react", "#css"],
     deploy: "https://flags-route.vercel.app/",
     github: "https://github.com/AytajGahramanova/flags-route",
   },
   {
+    title: "Minor Group",
+    image: minorgroup,
+    description:
+      "Mainly react and sass are used for this site. Data comes from the API and is essentially synchronized to it.",
+    technologies: ["#react", "#scss"],
+    deploy: "https://minorgroup.az/",
+    github: "https://github.com/gurularavel/minorfrontnew",
+  },
+  {
     title: "Github Profile",
     image: githubProfile,
     description:
-      "An application for managing tasks and projects, with features such as task assignment, and progress tracking.",
+      "GitHub searches for users by name and displays their profiles.Lists each user's GitHub repositories, so user profiles can be fully explored.",
     technologies: ["#html", "#css", "#javascript"],
     deploy: "https://create-git-hub.vercel.app/",
     github: "https://github.com/AytajGahramanova/createGitHub",
@@ -63,16 +72,24 @@ export const PROJECTS = [
     title: "Assessment",
     image: assessment,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "Coded using react hooks. It has the ability to change the color accordingly.",
     technologies: ["#react", "#css"],
     deploy: "https://custom-hooks-beta.vercel.app/",
     github: "https://github.com/AytajGahramanova/customHooks",
   },
   {
+    title: "Aktas Plastik",
+    image: aktasplastic,
+    description:
+      "It is a site about various types of plastic items. One of the technologies used is javascript.",
+    technologies: ["#html", "#css", "#bootstrap", "#javascript"],
+    deploy: "https://aktasplastik.az/az",
+    github: "https://github.com/gurularavel/aktasplastik",
+  },
+  {
     title: "Stuhmer",
     // image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+    description: "",
     technologies: ["#html", "#css", "#bootstrap", "#javascript"],
     deploy: "",
     github: "",
@@ -80,8 +97,7 @@ export const PROJECTS = [
   {
     title: "Yumshah",
     // image: project3,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
+    description: "",
     technologies: ["#html", "#css", "#bootstrap", "#javascript"],
     deploy: "",
     github: "",
@@ -89,29 +105,10 @@ export const PROJECTS = [
   {
     title: "İpotekAl",
     // image: project4,
-    description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+    description: "",
     technologies: ["#html", "#css", "#bootstrap", "#javascript"],
     deploy: "",
     github: "",
-  },
-  {
-    title: "Minor Group",
-    image: minorgroup,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["#react", "#scss"],
-    deploy: "https://minorgroup.az/",
-    github: "https://github.com/gurularavel/minorfrontnew",
-  },
-  {
-    title: "Aktas Plastik",
-    image: aktasplastic,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["#html", "#css", "#bootstrap", "#javascript"],
-    deploy: "https://aktasplastik.az/az",
-    github: "https://github.com/gurularavel/aktasplastik",
   },
 ];
 
