@@ -3,6 +3,7 @@ import githubProfile from "../assets/image/projects/githubProfile.png";
 import aktasplastic from "../assets/image/projects/aktasplastik.png";
 import minorgroup from "../assets/image/projects/minorgroup.png";
 import flags from "../assets/image/projects/flags.png";
+import stuhmer from "../assets/image/projects/stuhmer.png";
 
 export const HERO_CONTENT = `I am proficient in HTML, CSS, JavaScript and React with expertise in modern libraries and frameworks. Renowned for my creative and analytical problem-solving skills, I bring attention to detail to every project. As a collaborative team player, I actively contribute to the success and innovation of projects, ensuring quality and efficiency.
 
@@ -83,31 +84,15 @@ export const PROJECTS = [
     description:
       "It is a site about various types of plastic items. One of the technologies used is javascript.",
     technologies: ["#html", "#css", "#bootstrap", "#javascript"],
-    deploy: "https://aktasplastik.az/az",
+    deploy: "https://aktasplastik.az",
     github: "https://github.com/gurularavel/aktasplastik",
   },
   {
     title: "Stuhmer",
-    // image: project3,
+    image: stuhmer,
     description: "",
     technologies: ["#html", "#css", "#bootstrap", "#javascript"],
-    deploy: "",
-    github: "",
-  },
-  {
-    title: "Yumshah",
-    // image: project3,
-    description: "",
-    technologies: ["#html", "#css", "#bootstrap", "#javascript"],
-    deploy: "",
-    github: "",
-  },
-  {
-    title: "İpotekAl",
-    // image: project4,
-    description: "",
-    technologies: ["#html", "#css", "#bootstrap", "#javascript"],
-    deploy: "",
+    deploy: "https://stuhmer.az/",
     github: "",
   },
 ];
