@@ -2,17 +2,30 @@ import assessment from "../assets/image/projects/assessment.png";
 import githubProfile from "../assets/image/projects/githubProfile.png";
 import aktasplastic from "../assets/image/projects/aktasplastik.png";
 import minorgroup from "../assets/image/projects/minorgroup.png";
-import flags from "../assets/image/projects/flags.png";
+import ayuna from "../assets/image/projects/ayunaImage.png";
 import stuhmer from "../assets/image/projects/stuhmer.png";
 
-export const HERO_CONTENT = `I am proficient in HTML, CSS, JavaScript and React with expertise in modern libraries and frameworks. Renowned for my creative and analytical problem-solving skills, I bring attention to detail to every project. As a collaborative team player, I actively contribute to the success and innovation of projects, ensuring quality and efficiency.
+export const HERO_CONTENT = `I am a Full Stack Developer experienced in building modern, efficient, and user-centric web applications. 
+On the frontend, I work with HTML, CSS, JavaScript, TypeScript, React.js, and Next.js to create responsive interfaces with smooth user experiences.
+On the backend, I develop structured and reliable server-side logic using C#, ASP.NET Core, Entity Framework Core, and design optimized databases with MSSQL.
+
+I combine creative thinking with analytical problem-solving and maintain strong attention to detail throughout the development process. As a collaborative team player, I contribute to building high-quality products, improving workflows, and driving innovation within projects.
 
  `;
 
 export const EXPERIENCES = [
   {
-    year: "27.08.2024 - 27.11.2024",
-    role: "Frontend Developer Intern",
+    year: "09/2025 - 10/2025",
+    role: "Frontend Developer",
+    company: "Scorewatt",
+    description: `During this project, I’ve been working with to solve real-world problems, fix bugs and implement new features.
+This experience allows me to gain deeper hands-on knowledge in Front-End Development and improve my skills in code optimization.
+`,
+    technologies: ["Next.js", "TypeScript"],
+  },
+  {
+    year: "08/2024 - 12/2024",
+    role: "Frontend Developer",
     company: "Kvadrat MMC",
     description: `Worked closely with backend developers to integrate frontend components with APIs.Collaborating with the team on various stages of projects using React and Tailwind CSS.Expertise in creating efficient and high-performance web applications using Next.js.
 `,
@@ -26,15 +39,15 @@ export const EXPERIENCES = [
     ],
   },
   {
-    year: "04.03.2024 - 04.08.2024",
-    role: "Frontend Developer Intern",
+    year: "03/2024 - 08/2024",
+    role: "Frontend Developer",
     company: "Khan Buta Group MMC",
     description: `Practices to improve the appearance of websites and solve errors.Updating the sites according to the customer's request.`,
     technologies: ["HTML", "CSS", "Bootstrap", "Javascript"],
   },
   {
-    year: "30.06.2023 - 30.09.2023",
-    role: "Frontend Developer Intern",
+    year: "07/2023 - 09/2023",
+    role: "Frontend Developer",
     company: "Proton MMC",
     description: `Built responsive and accessible websites using Bootstrap, CSS, SCSS/SASS resulting in improved user engagement and experience.Created interactive web components and animations using JavaScript, resulting in visually appealing designs.`,
     technologies: ["HTML", "CSS", "Bootstrap", "Javascript"],
@@ -43,13 +56,13 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    image: flags,
-    title: "Country Flags",
+    image: ayuna,
+    title: "Ayuna",
     description:
-      "Is an interactive and interesting platform created to get information about countries' flags and information.It includes population, capital, territory and other interesting information for each country.",
-    technologies: ["#react", "#css"],
-    deploy: "https://flags-route.vercel.app/",
-    github: "https://github.com/AytajGahramanova/flags-route",
+      "This is a project for those interested in various types of accessories and gold items. This project is written with MVC logic.",
+    technologies: ["#mvc"],
+    // deploy: "https://flags-route.vercel.app/",
+    github: "https://github.com/AytajGahramanova/Ayuna_BackEnd",
   },
   {
     title: "Minor Group",
